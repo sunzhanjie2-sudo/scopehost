@@ -1,0 +1,37 @@
+__pycache__/
+*.pyc
+preview*.png
+device_screen.png
+.venv/
+venv/
+.runtime/
+release/
+build/
+dist/
+tmp/
+
+# Test artifacts & captured instrument data
+artifacts/
+*.npz
+
+# Local instrument manuals, extracted text and captured screenshots
+/DS1000E_ProgrammingGuide_CN.pdf
+/docs/*_prog.pdf
+/docs/*_prog.txt
+/scope_*.png
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Caches / test
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
